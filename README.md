@@ -1,19 +1,3 @@
-# Code Coverage Mockup
+# Generic GOC Redirect Page
 
-Building the dockerfile
-
-```
-docker build . -t codecoverage:latest
-```
-
-Running the dockerfile
-
-```
-docker run -p 8000:80 -t codecoverage:latest
-```
-
-Visiting the mockup
-
-```
-http://localhost:8000/
-```
+[![Build Status](https://cloud.drone.io/api/badges/esdc-devx/Redirect/status.svg)](https://cloud.drone.io/esdc-devx/Redirect)
